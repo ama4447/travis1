@@ -6,7 +6,6 @@ node_js:
     
 before_script:
 
-
 after_success:
   - echo $TOTO
   - git remote -v
