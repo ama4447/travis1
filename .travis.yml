@@ -13,8 +13,8 @@ after_success:
   - git config --global user.email "[ama.310@hotmail.com]"
   - git config --global user.name "[ama4447]"
   - git checkout master
-#  - npm version patch
-#  - git commit -am "[skip ci] bump version"
+  - npm version patch
+  - git commit -am "[skip ci] bump version"
   - git log --oneline
   - git remote set-url origin [https://github.com/ama4447/travis]
   - git push origin master
